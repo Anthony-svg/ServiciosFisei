@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Participantes
+    public class Responsables
     {
-        public Participantes(string cI, string contrasenia, string nombre, string apellido, string telefono, string correo)
+        public Responsables(string cI, string contrasenia, string nombre, string apellido, string telefono, string correo)
         {
             CI = cI;
             Contrasenia = contrasenia;
@@ -29,6 +29,5 @@ namespace Entidades
         public string Telefono { get; set; }
 
         public string Correo { get; set; }
-
     }
 }

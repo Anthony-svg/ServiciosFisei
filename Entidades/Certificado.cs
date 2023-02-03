@@ -8,11 +8,7 @@ namespace Entidades
 {
     public class Certificado
     {
-        public Certificado(string iD_Participante, string iD_Evento)
-        {
-            ID_Participante = iD_Participante;
-            ID_Evento = iD_Evento;
-        }
+        public int ID_Certificado { get; set; }
 
         public string ID_Participante { get; set; }
 

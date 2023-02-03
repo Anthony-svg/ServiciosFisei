@@ -8,8 +8,9 @@ namespace Entidades
 {
     public class Participantes
     {
-        public Participantes(string cI, string contrasenia, string nombre, string apellido, string telefono, string correo)
+        public Participantes(int iD_Participante, string cI, string contrasenia, string nombre, string apellido, string telefono, string correo)
         {
+            ID_Participante = iD_Participante;
             CI = cI;
             Contrasenia = contrasenia;
             Nombre = nombre;
@@ -17,6 +18,8 @@ namespace Entidades
             Telefono = telefono;
             Correo = correo;
         }
+
+        public int ID_Participante { get; set; }
 
         public string CI { get; set; }
 

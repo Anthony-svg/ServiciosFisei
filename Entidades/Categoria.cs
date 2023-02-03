@@ -8,10 +8,7 @@ namespace Entidades
 {
     public class Categoria
     {
-        public Categoria(string nom_Categoria)
-        {
-            Nom_Categoria = nom_Categoria;
-        }
+        public int ID_Categoria { get; set; }
 
         public string Nom_Categoria { get; set; }
     }

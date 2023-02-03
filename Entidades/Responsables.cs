@@ -8,8 +8,9 @@ namespace Entidades
 {
     public class Responsables
     {
-        public Responsables(string cI, string contrasenia, string nombre, string apellido, string telefono, string correo)
+        public Responsables(int iD_Responsable, string cI, string contrasenia, string nombre, string apellido, string telefono, string correo)
         {
+            ID_Responsable = iD_Responsable;
             CI = cI;
             Contrasenia = contrasenia;
             Nombre = nombre;
@@ -17,6 +18,8 @@ namespace Entidades
             Telefono = telefono;
             Correo = correo;
         }
+
+        public int ID_Responsable { get; set; }
 
         public string CI { get; set; }
 

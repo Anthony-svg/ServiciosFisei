@@ -8,8 +8,9 @@ namespace Entidades
 {
     public class Administradores
     {
-        public Administradores(string cI, string contrasenia, string nombre, string apellido, string telefono, string correo)
+        public Administradores(int iD_Administrador, string cI, string contrasenia, string nombre, string apellido, string telefono, string correo)
         {
+            ID_Administrador = iD_Administrador;
             CI = cI;
             Contrasenia = contrasenia;
             Nombre = nombre;
@@ -17,6 +18,8 @@ namespace Entidades
             Telefono = telefono;
             Correo = correo;
         }
+
+        public int ID_Administrador { get; set; }
 
         public string CI { get; set; }
 

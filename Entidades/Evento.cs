@@ -8,16 +8,7 @@ namespace Entidades
 {
     public class Evento
     {
-        public Evento(int iD_TipoEvento, int costo, int num_Horas, int iD_Responsable, int iD_Categoria, int iD_Profesor, string requisitos)
-        {
-            ID_TipoEvento = iD_TipoEvento;
-            Costo = costo;
-            Num_Horas = num_Horas;
-            ID_Responsable = iD_Responsable;
-            ID_Categoria = iD_Categoria;
-            ID_Profesor = iD_Profesor;
-            Requisitos = requisitos;
-        }
+        public int ID_Evento { get; set; }
 
         public int ID_TipoEvento { get; set; }
 

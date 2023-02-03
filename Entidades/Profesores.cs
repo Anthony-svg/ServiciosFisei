@@ -8,8 +8,9 @@ namespace Entidades
 {
     public class Profesores
     {
-        public Profesores(string cI, string contrasenia, string nombre, string apellido, string telefono, string correo)
+        public Profesores(int iD_Profesor, string cI, string contrasenia, string nombre, string apellido, string telefono, string correo)
         {
+            ID_Profesor = iD_Profesor;
             CI = cI;
             Contrasenia = contrasenia;
             Nombre = nombre;
@@ -17,6 +18,8 @@ namespace Entidades
             Telefono = telefono;
             Correo = correo;
         }
+
+        public int ID_Profesor { get; set; }
 
         public string CI { get; set; }
 

@@ -8,10 +8,13 @@ namespace Entidades
 {
     public class Asignacion
     {
-        public Asignacion(string publico)
+        public Asignacion(int iD_Asignacion, string publico)
         {
+            ID_Asignacion = iD_Asignacion;
             Publico = publico;
         }
+
+        public int ID_Asignacion { get; set; }
 
         public string Publico { get; set; }
     }

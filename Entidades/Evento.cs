@@ -10,6 +10,8 @@ namespace Entidades
     {
         public int ID_Evento { get; set; }
 
+        public string Nom_Evento { get; set; }
+
         public int ID_TipoEvento { get; set; }
 
         public int Costo { get; set; }
@@ -17,8 +19,6 @@ namespace Entidades
         public int Num_Horas { get; set; }
 
         public int ID_Responsable { get; set; }
-
-        public int ID_Categoria { get; set; }
 
         public int ID_Profesor { get; set; }
 

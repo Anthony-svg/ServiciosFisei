@@ -8,6 +8,10 @@ namespace Entidades
 {
     public class Participantes
     {
+        public Participantes()
+        {
+
+        }
         public Participantes(int iD_Participante, string cI, string contrasenia, string nombre, string apellido, string telefono, string correo)
         {
             ID_Participante = iD_Participante;
